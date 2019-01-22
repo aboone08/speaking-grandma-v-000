@@ -9,10 +9,12 @@ def speak_to_grandma(respond)
 # and yells back
 
 # NO, NOT SINCE 1938!
-return "NO, NOT SINCE 1938!"
+
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
   elsif respond == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
-  else return "I LOVE YOU TOO PUMPKIN!"
 # 'I LOVE YOU TOO PUMPKIN!'
+    return "I LOVE YOU TOO PUMPKIN!"
+  else 
+    return "NO, NOT SINCE 1938!"
+  end
 end 
